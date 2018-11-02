@@ -1,6 +1,19 @@
-header{
+body{
+    width: 960px;
     font-family: Arial, Helvetica, sans-serif;
-    color: red;
+    color: #777;
+    background: #777;
+    font-size:18px;
+}
+.headerWrapper{
+    width: 100%;
+    height: 20%;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+header{
+    background: #ebebeb;
 }
 #catPicture{
     height: 10%;
@@ -18,4 +31,41 @@ header{
 }
 #contentBox{
     width: 960px;
+}
+nav .navClass{
+    background:#ebebeb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+li{
+    float: right;
+
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+
+}
+
+aside{
+    background: #ebebeb;
+
+}
+footer{
+    background: ebebeb;
+
+}
+h1{
+    color: #777;
+    background: #ebebeb;
+}
+p{
+    
+    color: #777;
+    background: #ebebeb;
 }
