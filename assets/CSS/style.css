@@ -11,9 +11,9 @@ body{
     background: #777;
     font-size:18px;
 }
-.container{
+#headerwrapper{
     position: relative;
-    margin: 0;
+    top: 0px;
     text-align: center;
 }
 header{
